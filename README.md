@@ -2,6 +2,8 @@
 The project showcases a MBD (Multibody Dynamics) solver for a 4R mechanism using Python. 
 # Introduction 
 The project is built using the **Kane's extension to the Newton-Euler Equations**. The dynamics and Kinematics formalism is made using the Kane's Equations of Motion combined with D-'Alembert's Principles. Further more, the DAE (Differential Algebraic Equations) formed has been evaluated using a combination of Scipy's ```fsolve``` and Scipy's ```solve_ivp``` using **Runge Kutta (RK4/5)** methods in an attempt to solve the **Initial Value Problem (IVP)** presented by the Kinematics and Dynamics Formalism. 
+
+Additionally for the chosen link lengths, the solver solves the equations and performs the simulation for a **Grashof 4R Chain** specifically for a **Crank-Rocker** mechanism. 
 # Modules used 
 1. For Symbolic Computations and Formalism- ```Sympy``` has been used.
 2. For performing Numerical Calculations and translation of Symbolics to Numerics- ```numpy``` has been used.

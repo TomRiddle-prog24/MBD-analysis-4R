@@ -25,3 +25,7 @@ from IPython.display import HTML
 import matplotlib as ilt
 ilt.rcParams['animation.embed_limit'] = 50.0          #For the animation to be fit the entire time steps for a memory of 50MB 
 ```
+# Modelling 
+The model presents a model of 2 masses suspended to the two non-fixed revolutes of the 4R Mechanism. The links are modelled to be massless. The links are made sure such that, the Grashof Criterion is fullfilled i.e: 
+$$ s+L \leq p+q $$
+Here the angular velocity of the crank is *not constant* and will change w.r.t time. 

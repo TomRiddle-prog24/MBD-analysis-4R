@@ -21,5 +21,5 @@ import scipy.optimize as so
 from matplotlib.animation import FuncAnimation          #For animation of the mechanism
 from IPython.display import HTML
 import matplotlib as ilt
-ilt.rcParams['animation.embed_limit'] = 50.0          #For the frames of the animation to be longer
+ilt.rcParams['animation.embed_limit'] = 50.0          #For the animation to be fit the entire time steps for a memory of 50MB 
 ```
